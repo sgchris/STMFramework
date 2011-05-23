@@ -1,0 +1,61 @@
+/******** general ****************/
+* {
+    font-family: arial;
+    font-size: 12px;
+	line-height: 18px;
+}
+body {
+    background: #eee;
+	padding: 20px;
+}
+.clear {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clear: both;
+    float: none;
+}
+
+h1 {
+	font-size: 36px;
+	line-height: 36px;
+	letter-spacing: -2px;
+	color: #369;
+	margin: 10px 0;
+}
+
+h2 {
+	font-size: 26px;
+	line-height: 26px;
+	letter-spacing: -1px;
+	color: #47A;
+	margin: 7px 0;
+}
+
+h3 {
+	font-size: 18px;
+	line-height: 18px;
+	color: #58B;
+	margin: 5px 0;
+}
+
+p {
+	margin: 10px 0 0 10px;
+	font-size: 14px;
+	line-height: 20px;
+}
+.homepage_block {
+	margin-top: 20px;
+	padding: 10px;
+	background: #FFF;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background-image: -moz-linear-gradient(top, #FFFFFF, #F0F8FF); /* Firefox 3.6 */
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #F0F8FF),color-stop(1, #FFFFFF)); /* Safari & Chrome */
+	filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=\'#FFFFFF\', endColorstr=\'#F0F8FF\'); /* IE6 & IE7 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FFFFFF', endColorstr='#F0F8FF')"; /* IE8 */
+}
+
+
+
